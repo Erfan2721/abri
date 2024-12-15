@@ -19,6 +19,7 @@
         nav {
             display: flex;
             gap: 1rem;
+            direction: rtl;
         }
         nav a {
             text-decoration: none;
@@ -29,6 +30,10 @@
         }
         main {
             padding: 2rem;
+        }
+        section {
+            direction: rtl;
+            text-align: right;
         }
     </style>
 </head>
